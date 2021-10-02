@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1632260864 source:c:\users\proga12\main.c
+	<stdio.h>
+	<time.h>
+
