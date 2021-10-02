@@ -11,7 +11,7 @@ int main()
 
     for (int i = 0; i < 10; i++)
     {
-        temporary_sec = seconds + 24 * 3600;
+        temporary_sec = seconds + 24 * 3600 * i;
 
         struct tm *current = localtime(&temporary_sec);
         // year month day
