@@ -16,7 +16,7 @@ int main()
     arr_2[2] = -5.6;
     arr_2[3] = 6.7;
     for(int i=0; i<4; i++) {
-        printf("%f ", *arr_2++);
+        printf("%f ", arr_2[i]);
     }
     free(arr_2);
 }
